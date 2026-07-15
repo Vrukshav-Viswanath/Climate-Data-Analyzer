@@ -19,7 +19,8 @@ This project uses the [Weather Prediction Dataset](https://www.kaggle.com/datase
 To run this notebook:
 
 1. Download the dataset from the link above
-2. Place the CSV in `data/one_year_weather_dataset.csv`
+2. Follow the directions below to extract one year of data
+3. Place the CSV in `data/one_year_weather_dataset.csv`
 
 Expected columns include `BASEL_humidity`, `BASEL_pressure`, `BASEL_cloud_cover`, `BASEL_global_radiation`, and `BASEL_temp_mean`.
 
