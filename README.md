@@ -41,6 +41,8 @@ one_year.to_csv("data/one_year_weather_dataset.csv", index=False)
 
 Check the actual `DATE` range in your download first (`df["DATE"].min()`, `df["DATE"].max()`) and pick a year that's fully covered.
 
+The `one_year_dataset.csv` has been provided along with the other files. Download if the above steps don't work. 
+
 ## Setup
 
 ```bash
