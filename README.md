@@ -34,7 +34,7 @@ import pandas as pd
 df = pd.read_csv("full_weather_dataset.csv")
 
 # Keep only one calendar year (adjust the year as needed)
-one_year = df[(df["DATE"] >= 20250101) & (df["DATE"] <= 20251231)]
+one_year = df[(df["DATE"] >= 20000101) & (df["DATE"] <= 20001231)]
 
 one_year.to_csv("data/one_year_weather_dataset.csv", index=False)
 ```
